@@ -9,7 +9,7 @@ You **need** to follow the installation guide beforehand!
 ## Gathering requirements
 
 In this guide, we **need** the MelonLoader installer again. If you no longer have access to it or you don't know how to run it.
-Go to your respective guide [Windows Installation Guide](/windows-installation-guide) or [Linux Installation Guide](/linux-installation-guide) and check how to
+Go to your respective guide [Windows Installation Guide](./windows-installation-guide) or [Linux Installation Guide](./linux-installation-guide) and check how to
 launch it.
 
 ## Updating MelonLoader

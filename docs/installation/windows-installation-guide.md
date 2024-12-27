@@ -60,5 +60,5 @@ Manage -> Browse local files. This will open the installation folder
 ## Done
 
 You've now successfully installed SR2E! Have fun playing!
-You might wanna check out our other guides like [Updating SR2E](/sr2e-updating) or [Updating MelonLoader](/melonloader-updating).
+You might wanna check out our other guides like [Updating SR2E](./sr2e-updating) or [Updating MelonLoader](./melonloader-updating).
 Or if you want to know how to use SR2E, check out [SR2E Usage](/docs/category/sr2e-usage).
