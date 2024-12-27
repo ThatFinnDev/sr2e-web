@@ -1,0 +1,16 @@
+thatfinn:
+  name: ThatFinn
+  title: Main developer of SR2E
+  url: https://github.com/ThatFinnDev
+  image_url: https://github.com/ThatFinnDev.png
+  page: true
+  socials:
+    github: ThatFinnDev
+pinktarr:
+  name: Pinktarr
+  title: Co developer of SR2E
+  url: https://github.com/MadMincraftr
+  image_url: https://github.com/MadMincraftr.png
+  page: true
+  socials:
+    github: MadMinecraftr
