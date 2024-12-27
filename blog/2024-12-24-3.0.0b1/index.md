@@ -53,7 +53,7 @@ Added commands that are hidden and have to be toggled on using the new flag syst
 
 ### Documentation
 
-We finally have XML Docs! Do we have any plans to upload them to a domain... No, SR2E is not big/popular enough for that. This documentation is highly unfinished, so please add more into the `experimental` branch using `///` comments!
+We finally have XML Docs! This documentation is highly unfinished, so please add more into the `experimental` branch using `///` comments!
 
 ### New settings
 
