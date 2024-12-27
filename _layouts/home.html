@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<style>
+  .round-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+</style>
+<script>
+  window.onload = function onLoad() {
+    correctViewS()
+  }
+  window.onresize = function onresize() {
+    correctViewS()
+  }
+  function correctViewS()
+  {
+    if(window.innerWidth<700)
+    {
+      var palmonlys = document.getElementsByClassName("palm-only")
+      for(let element of palmonlys) { removeClass(element,"gone") };
+      var laptoponly = document.getElementsByClassName("laptop-only")
+      for(let element of laptoponly) { addClass(element,"gone") };
+    }
+    else
+    {
+      var palmonlys = document.getElementsByClassName("palm-only")
+      for(let element of palmonlys) { addClass(element,"gone")};
+      var laptoponly = document.getElementsByClassName("laptop-only")
+      for(let element of laptoponly) { removeClass(element,"gone")};
+    }
+  }
+</script>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <header class="site-header" role="banner">
+      <div class="header-container"></div>
+    </header>
+    <p></p><p></p><p></p><p></p>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+  
+        <div class="horizontal-centered">
+          <img src="/assets/thatfinn.png" class="round-image" >
+        </div>
+        <p></p><p></p><p></p>
+        <div class="horizontal-centered">
+          {%- if page.center-text -%}
+            <h1 class="home-title rainbow_underline">{{ page.center-text }}</h1>
+          {%- else -%}
+            <h1 class="home-title rainbow_underline">{{ page.title | escape }}</h1>
+          {%- endif -%}
+        </div>
+        <p></p>
+        {{ content }}
+        
+      </div>
+    </main>
+  </body>
+
+</html>

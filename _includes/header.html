@@ -1,0 +1,14 @@
+<header class="site-header" role="banner">
+<script>
+</script>
+
+ <div class="header-container">
+  <div class="centered">
+    {%- if page.center-text -%}
+      <h1 class="post-title">{{ page.center-text }}</h1>
+    {%- else -%}
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+    {%- endif -%}
+  </div>
+
+</header>
