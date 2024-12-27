@@ -13,7 +13,7 @@ We're proud to anounce a beta version of SR2E!
 
 It adds lots of new things. We hope you like it.
 
-### Changelog:
+## Changelog:
 Fixed a few bugs
 
 New issues
@@ -51,11 +51,11 @@ Renamed/Combined/Improved commands:
 Added commands that are hidden and have to be toggled on using the new flag system:
 - `ranch`
 
-# Documentation
+### Documentation
 
 We finally have XML Docs! Do we have any plans to upload them to a domain... No, SR2E is not big/popular enough for that. This documentation is highly unfinished, so please add more into the `experimental` branch using `///` comments!
 
-# New settings
+### New settings
 
 SR2E now supports adding custom settings to the `Options` menus!
 ![SR2E Settings category logo](./info1.png)
@@ -69,11 +69,11 @@ However! There are 2 new official options that are fully working in the game! Th
 - "Allow Cheating" | "Give yourself the ability to spawn objects and edit your inventory."
 - "Skip Intro" | "Whether or not to skip the intro cutscene when you begin the world."
 
-# Languages
+### Languages
 
 There is a new Language system that allows for not just english. It also allows the user to make their own translations from their own mods as well.
 
-# Flags system
+### Flags system
 
 This system allows the user to edit parts of SR2E. You can find the **hidden** file here: `%appdata%/../LocalLow/MonomiPark/SlimeRancher2/`
 

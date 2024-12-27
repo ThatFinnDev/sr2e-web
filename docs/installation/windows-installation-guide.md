@@ -42,7 +42,7 @@ GitHub is the recommended method and you can also download.
 
 1. Download the latest **SR2E.dll** from either [GitHub](https://github.com/ThatFinnDev/SR2E/releases) or [Nexusmods](https://www.nexusmods.com/slimerancher2/mods/60)
  beta versions of SR2E there, if you're intersted in testing experimental features.
-:::tip Info
+:::tip Nexusmods
 
 If you choose the Nexusmods option, you'll get a .zip file. You need to extract it in order to get the .dll.
 
