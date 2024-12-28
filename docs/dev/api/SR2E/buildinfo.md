@@ -44,7 +44,9 @@ public static string DownloadLink;
 
 ### **DisplayVersion**
 
-Should be the same as Version unless this is a special build. For beta please use [version]b[beta-number]. For alpha use [version]a[alpha-number]. For development builds please use [version]DEV[build-number | commit-id]
+Should be the same as Version unless this is a special build. For beta please use [version]b[beta-number].
+ For alpha use [version]a[alpha-number].
+ For development builds please use [version]d[build-number | commit-id | time]
 
 ```csharp
 public static string DisplayVersion;

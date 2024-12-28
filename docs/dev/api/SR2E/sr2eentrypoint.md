@@ -10,12 +10,6 @@ Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) 
 
 ## Fields
 
-### **saveSkipIntro**
-
-```csharp
-public static ScriptedBool saveSkipIntro;
-```
-
 ### **OnRegister**
 
 ```csharp
@@ -31,6 +25,9 @@ public MelonEvent OnUnregister;
 ## Properties
 
 ### **isLatestVersion**
+
+Is true, if no new version of SR2E has been found. It's also true, if
+ the user has no internet or the github servers blocked.
 
 ```csharp
 public static bool isLatestVersion { get; }
