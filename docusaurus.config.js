@@ -130,8 +130,13 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} SR2E, published under MIT license.<br />This project is not affiliated with Monomi Park, LLC nor with Monomi Park, LLC in any way.`,
       },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false
+      },
       prism: {
-        theme: prismThemes.github,
+        lightTheme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
