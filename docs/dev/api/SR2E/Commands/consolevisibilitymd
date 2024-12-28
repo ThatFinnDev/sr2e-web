@@ -1,0 +1,17 @@
+# ConsoleVisibilityCommands
+
+Namespace: SR2E.Commands
+
+```csharp
+public class ConsoleVisibilityCommands
+```
+
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [ConsoleVisibilityCommands](./sr2e.commands.consolevisibilitycommands.md)
+
+## Constructors
+
+### **ConsoleVisibilityCommands()**
+
+```csharp
+public ConsoleVisibilityCommands()
+```
