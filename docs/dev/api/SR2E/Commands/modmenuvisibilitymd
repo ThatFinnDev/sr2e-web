@@ -1,0 +1,17 @@
+# ModMenuVisibilityCommands
+
+Namespace: SR2E.Commands
+
+```csharp
+public class ModMenuVisibilityCommands
+```
+
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [ModMenuVisibilityCommands](./sr2e.commands.modmenuvisibilitycommands.md)
+
+## Constructors
+
+### **ModMenuVisibilityCommands()**
+
+```csharp
+public ModMenuVisibilityCommands()
+```

@@ -1,0 +1,17 @@
+# CheatMenuVisibilityCommands
+
+Namespace: SR2E.Commands
+
+```csharp
+public class CheatMenuVisibilityCommands
+```
+
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [CheatMenuVisibilityCommands](./sr2e.commands.cheatmenuvisibilitycommands.md)
+
+## Constructors
+
+### **CheatMenuVisibilityCommands()**
+
+```csharp
+public CheatMenuVisibilityCommands()
+```
