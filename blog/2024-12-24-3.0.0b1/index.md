@@ -10,7 +10,7 @@ tags: [version, beta]
 ## SR2E 3.0.0 Beta 1
 
 We're proud to anounce a beta version of SR2E!
-
+<!-- truncate -->
 It adds lots of new things. We hope you like it.
 
 ## Changelog:
