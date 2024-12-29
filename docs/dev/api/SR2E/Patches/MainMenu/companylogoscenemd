@@ -1,9 +1,0 @@
-# CompanyLogoScenePatches
-
-Namespace: SR2E.Patches.MainMenu
-
-```csharp
-public static class CompanyLogoScenePatches
-```
-
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [CompanyLogoScenePatches](./sr2e.patches.mainmenu.companylogoscenepatches.md)

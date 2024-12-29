@@ -233,7 +233,10 @@ public static void ExecuteByString(string input, bool silent, bool alwaysPlay)
 #### Parameters
 
 `input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+The string as the console command input
 
 `silent` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+If the command is supposed to be silent
 
 `alwaysPlay` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+If the command should NOT be silent

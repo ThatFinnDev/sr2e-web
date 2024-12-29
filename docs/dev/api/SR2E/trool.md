@@ -2,6 +2,8 @@
 
 Namespace: SR2E
 
+A three-way boolean
+
 ```csharp
 public enum Trool
 ```

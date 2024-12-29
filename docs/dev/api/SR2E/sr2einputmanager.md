@@ -69,6 +69,8 @@ public static bool OnKey(Key key)
 
 ### **OnKeyPressed(MultiKey)**
 
+Run this every Update to get whether the key was pressed this frame
+
 ```csharp
 public static bool OnKeyPressed(MultiKey multiKey)
 ```
@@ -80,6 +82,7 @@ public static bool OnKeyPressed(MultiKey multiKey)
 #### Returns
 
 [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+If the key was pressed this frame
 
 ### **OnKeyUnpressed(MultiKey)**
 

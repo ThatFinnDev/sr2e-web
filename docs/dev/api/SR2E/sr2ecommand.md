@@ -2,6 +2,8 @@
 
 Namespace: SR2E
 
+Abstract console command class
+
 ```csharp
 public abstract class SR2ECommand
 ```

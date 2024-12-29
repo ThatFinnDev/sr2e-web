@@ -2,6 +2,8 @@
 
 Namespace: SR2E
 
+Every key on a keyboard (en_us layout) and some other buttons
+
 ```csharp
 public enum Key
 ```
