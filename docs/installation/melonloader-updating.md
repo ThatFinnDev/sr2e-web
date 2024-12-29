@@ -3,7 +3,9 @@ sidebar_position: 4
 ---
 
 import MLISR2UpgradeWin from './img/mli_sr2_upgrade_win.png';
+import MLISR2UpgradeLin from './img/mli_sr2_upgrade_lin.png';
 import MLISR2SuccessWin from './img/mli_sr2_success_win.png';
+import MLISR2SuccessLin from './img/mli_sr2_success_lin.png';
 
 # Updating MelonLoader
 
@@ -26,7 +28,9 @@ identical on a linux machine.
 If you want to, you can select a different version to downgrade/upgrade to it
 :::
 3. Select the **latest version** in the version dropdown and then **press Install**.
-<img src={MLISR2UpgradeWin} alt="<image is loading>" style={{height: 300}} />
+<img src={MLISR2UpgradeWin} alt="<image is loading>" style={{height: 450}} />
+<img src={MLISR2UpgradeLin} alt="<image is loading>" style={{height: 450}} />
 4. If everything went smoothly, it should get this message:
 <img src={MLISR2SuccessWin} alt="<image is loading>" style={{height: 300}} />
+<img src={MLISR2SuccessLin} alt="<image is loading>" style={{height: 300}} />
 5. Simply press OK, close the installer and proceed to the next step

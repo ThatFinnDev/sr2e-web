@@ -28,7 +28,7 @@ The ASP.NET Core Runtime doesn't count.
 
 As mentioned before in the intro, SR2E **requires** MelonLoader in order to work.
 
-1. Download the [MelonLoader Installer](https://github.com/LavaGang/MelonLoader/releases/download/v0.6.6/MelonLoader.Installer.exe)
+1. Download the [MelonLoader Installer](https://github.com/LavaGang/MelonLoader/releases/latest/download/MelonLoader.Installer.exe)
 2. Run the downloaded **executable**.
 3. Select **Slime Rancher 2**. If you cant find it, you need to add the game manually.
 :::
@@ -38,7 +38,7 @@ As mentioned before in the intro, SR2E **requires** MelonLoader in order to work
 issues regarding loading assetbundles, we recommend using version MelonLoader 0.6.2 instead.
 
 :::
-<img src={MLIHomeWin} alt="<image is loading>" style={{height: 300}} />
+<img src={MLIHomeWin} alt="<image is loading>" style={{height: 450}} />
 
 4. Select the **latest version** in the version dropdown and then **press Install**.
 5. If everything went smoothly, it should get this message:

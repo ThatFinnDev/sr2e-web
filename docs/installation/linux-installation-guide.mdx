@@ -1,0 +1,187 @@
+---
+sidebar_position: 2
+---
+
+import DotNet6 from './img/.net6.0.png';
+import MLIHomeLin from './img/mli_home_lin.png';
+import MLISR2SuccessLin from './img/mli_sr2_success_lin.png';
+import DiscoverLin from './img/discover_lin.png';
+import Protontricks1 from './img/protontricks_1.png';
+import Protontricks2 from './img/protontricks_2.png';
+import Protontricks3 from './img/protontricks_3.png';
+import Protontricks4 from './img/protontricks_4.png';
+import Protontricks5 from './img/protontricks_5.png';
+import Protontricks6 from './img/protontricks_6.png';
+import Protontricks7 from './img/protontricks_7.png';
+import Protontricks8 from './img/protontricks_8.png';
+import Protontricks9 from './img/protontricks_9.png';
+import Protontricks10 from './img/protontricks_10.png';
+import Protontricks11 from './img/protontricks_11.png';
+import Protontricks12 from './img/protontricks_12.png';
+import Protontricks13 from './img/protontricks_1.png';
+import Protontricks14 from './img/protontricks_1.png';
+
+# Linux Installation Guide (Steam/SteamOS)
+
+This guide will show you how to install SR2E on a linux computer running **Slime Rancher 2** through Steam.
+To use **SR2E**, you need to install its **requirements** first. SR2E uses **MelonLoader** (short ML) as a mod loader and **.NET 6.0**
+
+**Slime Rancher 2** is a **Windows only** game. That means, Steam runs the game through Proton. Because of this,
+the guide is going to be a bit more complicated than the normal Windows one.
+
+**You need [flatpak](https://flathub.org/setup) installed for this tutorial!** <br />
+SteamOS has this installed by default.
+
+Vocabulary: <br />
+Prefix - A Prefix is, in a Proton related context, a container with Windows files.
+
+## Installing Protontricks
+
+In this tutorial you're going to use **Protontricks**. We're going to use it, to install .NET 6.0 and to change an override. <br />
+There are 2 ways to install **Protontricks**. Either via the command line or via a supported Software Center, like **Discover** in KDE.
+
+### 1. GUI Method (Discover)
+
+This will only work, if you have a supported Software Center and its flatpak support module installed. If you're using KDE (e.g SteamOS, Kubuntu), then you can use the
+**Discover** app.
+
+1. Search "Protontricks" on the **Discover** app, select **Protontricks**
+<img src={DiscoverLin} alt="<image is loading>" style={{height: 550}} />
+2. Press the **Install** button on the top right, to install Protontricks
+
+### 2. CMD Method
+
+This method will work everywhere.
+
+1. Open a console programm like **Konsole**
+2. Execute the following command:
+```text title=""
+flatpak install flathub com.github.Matoking.protontricks
+```
+:::warning Info
+Flatpak might tell you, it found multiple installations and it may ask you if you want to install **Protontricks** either in the "system" installation or 
+the "user" installation. Both options work both fine, it depends on you, which one you want to choose.
+:::
+## Installing .NET 6.0 Runtime and adding the "version" override
+Now, you need to install .NET 6.0 Runtime. Since Slime Rancher is an x64 Windows game. You need the **x64 Windows** version of .NET 6.0.
+
+### Downloading 
+First, you need to acquire the installer.
+1. Head to the [Microsoft .NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) download page
+2. Download the **x64 Windows"** (not the linux version) version of **.NET Runtime 6.0**
+<img src={DotNet6} alt="<image is loading>" style={{height: 300}} />
+
+## Installing
+**Protontricks** is neccesary for this step, otherwise we can't access .NET 6.0 into the **Slime Rancher 2 Prefix**
+
+1. Open **Protontricks** from your Application Launcher.
+:::tip Info
+If you cant find **Protontricks** in your Application Launcher, you can also launch it with the following command:
+```text title=""
+flatpak run com.github.Matoking.protontricks --gui
+```
+:::
+
+2. Select **Slime Rancher 2** from the List and press the **OK** button
+<img src={Protontricks1} alt="<image is loading>" style={{height: 300}} />
+
+:::tip Info
+It may take a while for a new window to appear, please be patient!
+:::
+
+3. On this screen select **Install an application** and press the **OK** button
+<img src={Protontricks2} alt="<image is loading>" style={{height: 300}} />
+
+4. On this screen press the **Cancel** button
+<img src={Protontricks3} alt="<image is loading>" style={{height: 300}} />
+
+5. Here, you need to select **Run uninstaller** and press the **OK** button
+<img src={Protontricks4} alt="<image is loading>" style={{height: 300}} />
+
+:::warning Info
+If **Protontricks** shows a a pop like this:
+<img src={Protontricks5} alt="<image is loading>" style={{height: 200}} />
+You can simply press **No** and on then next popup press **OK**
+<img src={Protontricks6} alt="<image is loading>" style={{height: 200}} />
+:::
+
+6. In the **Add/Remove programs** window, press the **Install** button
+<img src={Protontricks7} alt="<image is loading>" style={{height: 450}} />
+
+7. In the newly appeared popup, search for your downloaded .NET 6.0 installer and press **Open**
+:::tip Tip
+If the *.exe* file is not being shown, you may need to select "Programs (.exe)" from the **Files of type** dropdown
+:::
+
+If everything went smoothly, you should see a screen a like this one:
+<img src={Protontricks8} alt="<image is loading>" style={{height: 450}} />
+
+8. Press  **Install**, wait for the installer to finish and press **Close**
+
+9. Back in the **Add/Remove programs** window, press **OK** to close it and **Protontricks** should reopen.
+
+10. This time select **run winecfg** and press **OK**
+<img src={Protontricks9} alt="<image is loading>" style={{height: 300}} />
+
+A window called **Wine Configuration** should open
+<img src={Protontricks10} alt="<image is loading>" style={{height: 450}} />
+
+11. Here, you need to go to the **Libraries** tab
+<img src={Protontricks11} alt="<image is loading>" style={{height: 450}} />
+12. Enter "version" in the input field 
+13. Press **Add** 
+<img src={Protontricks12} alt="<image is loading>" style={{height: 450}} />
+14. Press **OK** to close it and **Protontricks** should reopen.
+15. Press **Cancel** until Protontricks is completely closed
+
+## Installing MelonLoader
+
+As mentioned before in the intro, SR2E **requires** MelonLoader in order to work.
+
+1. Download the [MelonLoader Installer](https://github.com/LavaGang/MelonLoader/releases/latest/download/MelonLoader.Installer.Linux)
+2. Run the downloaded file.
+3. Select **Slime Rancher 2**. If you cant find it, you need to add the game manually.
+:::
+:::warning Incompatibility
+
+**Slime Rancher 2** 0.6.0 and 0.6.1 are not compatible with MelonLoader 0.6.6, 0.6.5 and 0.6.3. Since MelonLoader 0.6.4 has some
+issues regarding loading assetbundles, we recommend using version MelonLoader 0.6.2 instead.
+
+:::
+<img src={MLIHomeLin} alt="<image is loading>" style={{height: 450}} />
+
+4. Select the **latest version** in the version dropdown and then **press Install**.
+5. If everything went smoothly, it should get this message:
+<img src={MLISR2SuccessLin} alt="<image is loading>" style={{height: 300}} />
+6. Simply press OK, close the installer and proceed to the next step
+
+
+## Installing SR2E
+
+You're almost finished! Once you've installed SR2E, you're done!
+
+You can install SR2E either from our [GitHub](https://github.com/ThatFinnDev/SR2E/releases) or from [Nexusmods](https://www.nexusmods.com/slimerancher2/mods/60).
+GitHub is the recommended method and you can also download.
+
+1. Download the latest **SR2E.dll** from either [GitHub](https://github.com/ThatFinnDev/SR2E/releases) or [Nexusmods](https://www.nexusmods.com/slimerancher2/mods/60)
+ beta versions of SR2E there, if you're intersted in testing experimental features.
+:::tip Nexusmods
+
+If you choose the Nexusmods option, you'll get a .zip file. You need to extract it in order to get the .dll.
+
+:::
+:::tip Steam
+
+If you own **Slime Rancher 2** via **Steam**, you can get the installation folder, by going to Libary -> Right clicking on **Slime Rancher 2** -> 
+Manage -> Browse local files. This will open the installation folder
+
+:::
+2. Open the **Slime Rancher 2** installation folder
+3. There should be a **Mods** folder. If not create one.
+4. Simply copy the **SR2E.dll** into the **Mods** folder.
+
+## Done
+
+You've now successfully installed SR2E! Have fun playing!
+You might wanna check out our other guides like [Updating SR2E](./sr2e-updating) or [Updating MelonLoader](./melonloader-updating).
+Or if you want to know how to use SR2E, check out [SR2E Usage](/docs/category/sr2e-usage).
