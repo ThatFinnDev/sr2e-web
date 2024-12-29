@@ -44,11 +44,11 @@ public CustomRanchUIButton(LocalizedString label, int insertIndex, Action action
 
 #### Parameters
 
-`label` LocalizedString<br></br>
+`label` LocalizedString<br />
 
-`insertIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+`insertIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
-`action` [Action](https://docs.microsoft.com/en-us/dotnet/api/system.action)<br></br>
+`action` [Action](https://docs.microsoft.com/en-us/dotnet/api/system.action)<br />
 
 ## Methods
 

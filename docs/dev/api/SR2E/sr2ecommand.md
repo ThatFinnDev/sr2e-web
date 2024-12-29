@@ -30,7 +30,7 @@ public abstract string ID { get; }
 
 #### Property Value
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **Usage**
 
@@ -42,7 +42,7 @@ public abstract string Usage { get; }
 
 #### Property Value
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **Description**
 
@@ -54,7 +54,7 @@ public string Description { get; }
 
 #### Property Value
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **ExtendedDescription**
 
@@ -66,7 +66,7 @@ public string ExtendedDescription { get; }
 
 #### Property Value
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **type**
 
@@ -78,7 +78,7 @@ public CommandType type { get; }
 
 #### Property Value
 
-[CommandType](/docs/dev/api/sr2e/commandtype)<br></br>
+[CommandType](/docs/dev/api/sr2e/commandtype)<br />
 
 ### **Hidden**
 
@@ -88,7 +88,7 @@ public bool Hidden { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **execWhenIsOpenConsole**
 
@@ -100,7 +100,7 @@ public bool execWhenIsOpenConsole { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **execWhenIsOpenCheatMenu**
 
@@ -112,7 +112,7 @@ public bool execWhenIsOpenCheatMenu { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **execWhenIsOpenModMenu**
 
@@ -124,7 +124,7 @@ public bool execWhenIsOpenModMenu { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ## Methods
 
@@ -138,12 +138,12 @@ public abstract bool Execute(String[] args)
 
 #### Parameters
 
-`args` [String[]](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`args` [String[]](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 The arguments passed in the console (null if no arguments are provided)
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 True if it executed, false otherwise
 
 ### **GetAutoComplete(Int32, String[])**
@@ -156,15 +156,15 @@ public List<string> GetAutoComplete(int argIndex, String[] args)
 
 #### Parameters
 
-`argIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+`argIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 The index of the argument in the command string
 
-`args` [String[]](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`args` [String[]](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 A list of inputted arguments
 
 #### Returns
 
-[List&lt;String&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br></br>
+[List&lt;String&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br />
 The list of auto complete options
 
 ### **Update()**
@@ -217,7 +217,7 @@ public bool SendUsage()
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **SendNoArguments()**
 
@@ -229,7 +229,7 @@ public bool SendNoArguments()
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **SendLoadASaveFirst()**
 
@@ -241,7 +241,7 @@ public bool SendLoadASaveFirst()
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **SendMessage(String)**
 
@@ -253,7 +253,7 @@ public void SendMessage(string message)
 
 #### Parameters
 
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **SendError(String)**
 
@@ -265,11 +265,11 @@ public bool SendError(string message)
 
 #### Parameters
 
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **SendWarning(String)**
 
@@ -281,4 +281,4 @@ public void SendWarning(string message)
 
 #### Parameters
 
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />

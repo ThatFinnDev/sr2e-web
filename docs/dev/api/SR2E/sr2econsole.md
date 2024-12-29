@@ -28,7 +28,7 @@ public static bool isOpen { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ## Methods
 
@@ -42,7 +42,7 @@ public static void SendMessage(string message)
 
 #### Parameters
 
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **SendMessage(String, Boolean, Boolean)**
 
@@ -54,11 +54,11 @@ public static void SendMessage(string message, bool doMLLog, bool internal_logML
 
 #### Parameters
 
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`doMLLog` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`doMLLog` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
-`internal_logMLForSingleLine` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`internal_logMLForSingleLine` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **SendError(String)**
 
@@ -70,7 +70,7 @@ public static void SendError(string message)
 
 #### Parameters
 
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **SendError(String, Boolean, Boolean)**
 
@@ -82,11 +82,11 @@ public static void SendError(string message, bool doMLLog, bool internal_logMLFo
 
 #### Parameters
 
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`doMLLog` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`doMLLog` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
-`internal_logMLForSingleLine` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`internal_logMLForSingleLine` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **SendWarning(String)**
 
@@ -98,7 +98,7 @@ public static void SendWarning(string message)
 
 #### Parameters
 
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **SendWarning(String, Boolean, Boolean)**
 
@@ -110,11 +110,11 @@ public static void SendWarning(string message, bool doMLLog, bool internal_logML
 
 #### Parameters
 
-`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`message` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`doMLLog` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`doMLLog` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
-`internal_logMLForSingleLine` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`internal_logMLForSingleLine` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **Close()**
 
@@ -150,11 +150,11 @@ public static bool RegisterCommand(SR2ECommand cmd)
 
 #### Parameters
 
-`cmd` [SR2ECommand](/docs/dev/api/sr2e/sr2ecommand)<br></br>
+`cmd` [SR2ECommand](/docs/dev/api/sr2e/sr2ecommand)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **RegisterCommands(SR2ECommand[])**
 
@@ -166,11 +166,11 @@ public static bool RegisterCommands(SR2ECommand[] cmds)
 
 #### Parameters
 
-`cmds` [SR2ECommand[]](/docs/dev/api/sr2e/sr2ecommand)<br></br>
+`cmds` [SR2ECommand[]](/docs/dev/api/sr2e/sr2ecommand)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **UnRegisterCommand(SR2ECommand)**
 
@@ -188,11 +188,11 @@ public static bool UnRegisterCommand(SR2ECommand cmd)
 
 #### Parameters
 
-`cmd` [SR2ECommand](/docs/dev/api/sr2e/sr2ecommand)<br></br>
+`cmd` [SR2ECommand](/docs/dev/api/sr2e/sr2ecommand)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **UnRegisterCommand(String)**
 
@@ -204,11 +204,11 @@ public static bool UnRegisterCommand(string cmd)
 
 #### Parameters
 
-`cmd` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`cmd` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **ExecuteByString(String, Boolean)**
 
@@ -218,9 +218,9 @@ public static void ExecuteByString(string input, bool silent)
 
 #### Parameters
 
-`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`silent` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`silent` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **ExecuteByString(String, Boolean, Boolean)**
 
@@ -232,11 +232,11 @@ public static void ExecuteByString(string input, bool silent, bool alwaysPlay)
 
 #### Parameters
 
-`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 The string as the console command input
 
-`silent` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`silent` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 If the command is supposed to be silent
 
-`alwaysPlay` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`alwaysPlay` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 If the command should NOT be silent

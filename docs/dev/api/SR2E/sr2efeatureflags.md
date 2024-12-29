@@ -6,7 +6,7 @@ Namespace: SR2E
 public static class SR2EFeatureFlags
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SR2EFeatureFlags](/docs/dev/api/sr2e/sr2efeatureflags)<br></br>
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SR2EFeatureFlags](/docs/dev/api/sr2e/sr2efeatureflags)<br />
 Attributes [ExtensionAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.compilerservices.extensionattribute)
 
 ## Properties
@@ -19,7 +19,7 @@ public static CommandType enabledCommands { get; }
 
 #### Property Value
 
-[CommandType](/docs/dev/api/sr2e/commandtype)<br></br>
+[CommandType](/docs/dev/api/sr2e/commandtype)<br />
 
 ### **flags**
 
@@ -29,7 +29,7 @@ public static FeatureFlag flags { get; }
 
 #### Property Value
 
-[FeatureFlag](/docs/dev/api/sr2e/featureflag)<br></br>
+[FeatureFlag](/docs/dev/api/sr2e/featureflag)<br />
 
 ## Methods
 
@@ -41,11 +41,11 @@ public static bool HasFlag(FeatureFlag featureFlag)
 
 #### Parameters
 
-`featureFlag` [FeatureFlag](/docs/dev/api/sr2e/featureflag)<br></br>
+`featureFlag` [FeatureFlag](/docs/dev/api/sr2e/featureflag)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **Get(FeatureIntegerValue)**
 
@@ -55,11 +55,11 @@ public static int Get(FeatureIntegerValue featureIntegerValue)
 
 #### Parameters
 
-`featureIntegerValue` [FeatureIntegerValue](/docs/dev/api/sr2e/featureintegervalue)<br></br>
+`featureIntegerValue` [FeatureIntegerValue](/docs/dev/api/sr2e/featureintegervalue)<br />
 
 #### Returns
 
-[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
 ### **Get(FeatureStringValue)**
 
@@ -69,11 +69,11 @@ public static string Get(FeatureStringValue featureStringValue)
 
 #### Parameters
 
-`featureStringValue` [FeatureStringValue](/docs/dev/api/sr2e/featurestringvalue)<br></br>
+`featureStringValue` [FeatureStringValue](/docs/dev/api/sr2e/featurestringvalue)<br />
 
 #### Returns
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **GetDefault(FeatureIntegerValue)**
 
@@ -83,11 +83,11 @@ public static int GetDefault(FeatureIntegerValue featureIntegerValue)
 
 #### Parameters
 
-`featureIntegerValue` [FeatureIntegerValue](/docs/dev/api/sr2e/featureintegervalue)<br></br>
+`featureIntegerValue` [FeatureIntegerValue](/docs/dev/api/sr2e/featureintegervalue)<br />
 
 #### Returns
 
-[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
 ### **GetDefault(FeatureStringValue)**
 
@@ -97,8 +97,8 @@ public static string GetDefault(FeatureStringValue featureStringValue)
 
 #### Parameters
 
-`featureStringValue` [FeatureStringValue](/docs/dev/api/sr2e/featurestringvalue)<br></br>
+`featureStringValue` [FeatureStringValue](/docs/dev/api/sr2e/featurestringvalue)<br />
 
 #### Returns
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />

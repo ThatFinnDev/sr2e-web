@@ -6,7 +6,7 @@ Namespace: SR2E
 public static class SR2EInputManager
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SR2EInputManager](/docs/dev/api/sr2e/sr2einputmanager)<br></br>
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SR2EInputManager](/docs/dev/api/sr2e/sr2einputmanager)<br />
 Attributes [ExtensionAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.compilerservices.extensionattribute)
 
 ## Methods
@@ -19,11 +19,11 @@ public static short GetAsyncKeyState(int vKey)
 
 #### Parameters
 
-`vKey` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+`vKey` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
 #### Returns
 
-[Int16](https://docs.microsoft.com/en-us/dotnet/api/system.int16)<br></br>
+[Int16](https://docs.microsoft.com/en-us/dotnet/api/system.int16)<br />
 
 ### **OnKeyPressed(Key)**
 
@@ -33,11 +33,11 @@ public static bool OnKeyPressed(Key key)
 
 #### Parameters
 
-`key` [Key](/docs/dev/api/sr2e/key)<br></br>
+`key` [Key](/docs/dev/api/sr2e/key)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **OnKeyUnpressed(Key)**
 
@@ -47,11 +47,11 @@ public static bool OnKeyUnpressed(Key key)
 
 #### Parameters
 
-`key` [Key](/docs/dev/api/sr2e/key)<br></br>
+`key` [Key](/docs/dev/api/sr2e/key)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **OnKey(Key)**
 
@@ -61,11 +61,11 @@ public static bool OnKey(Key key)
 
 #### Parameters
 
-`key` [Key](/docs/dev/api/sr2e/key)<br></br>
+`key` [Key](/docs/dev/api/sr2e/key)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **OnKeyPressed(MultiKey)**
 
@@ -77,11 +77,11 @@ public static bool OnKeyPressed(MultiKey multiKey)
 
 #### Parameters
 
-`multiKey` [MultiKey](/docs/dev/api/sr2e/storage/multikey)<br></br>
+`multiKey` [MultiKey](/docs/dev/api/sr2e/storage/multikey)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 If the key was pressed this frame
 
 ### **OnKeyUnpressed(MultiKey)**
@@ -92,11 +92,11 @@ public static bool OnKeyUnpressed(MultiKey multiKey)
 
 #### Parameters
 
-`multiKey` [MultiKey](/docs/dev/api/sr2e/storage/multikey)<br></br>
+`multiKey` [MultiKey](/docs/dev/api/sr2e/storage/multikey)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **OnKey(MultiKey)**
 
@@ -106,8 +106,8 @@ public static bool OnKey(MultiKey multiKey)
 
 #### Parameters
 
-`multiKey` [MultiKey](/docs/dev/api/sr2e/storage/multikey)<br></br>
+`multiKey` [MultiKey](/docs/dev/api/sr2e/storage/multikey)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />

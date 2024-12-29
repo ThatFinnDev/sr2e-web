@@ -18,11 +18,11 @@ public static string translation(string key)
 
 #### Parameters
 
-`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **translation(String, Object[])**
 
@@ -32,13 +32,13 @@ public static string translation(string key, Object[] args)
 
 #### Parameters
 
-`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`args` [Object[]](https://docs.microsoft.com/en-us/dotnet/api/system.object)<br></br>
+`args` [Object[]](https://docs.microsoft.com/en-us/dotnet/api/system.object)<br />
 
 #### Returns
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **AddLanguage(String, String)**
 
@@ -48,9 +48,9 @@ public static void AddLanguage(string code, string text)
 
 #### Parameters
 
-`code` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`code` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`text` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`text` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **LoadLanguage(String)**
 
@@ -60,4 +60,4 @@ public static void LoadLanguage(string code)
 
 #### Parameters
 
-`code` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`code` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />

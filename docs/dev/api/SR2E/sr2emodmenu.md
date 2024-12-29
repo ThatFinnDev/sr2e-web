@@ -18,7 +18,7 @@ public static bool isOpen { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ## Methods
 

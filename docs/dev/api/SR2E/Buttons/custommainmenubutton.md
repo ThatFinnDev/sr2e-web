@@ -50,10 +50,10 @@ public CustomMainMenuButton(LocalizedString label, Sprite icon, int insertIndex,
 
 #### Parameters
 
-`label` LocalizedString<br></br>
+`label` LocalizedString<br />
 
-`icon` Sprite<br></br>
+`icon` Sprite<br />
 
-`insertIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+`insertIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
-`action` [Action](https://docs.microsoft.com/en-us/dotnet/api/system.action)<br></br>
+`action` [Action](https://docs.microsoft.com/en-us/dotnet/api/system.action)<br />

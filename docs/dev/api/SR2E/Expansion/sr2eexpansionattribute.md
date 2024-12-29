@@ -6,7 +6,7 @@ Namespace: SR2E.Expansion
 public class SR2EExpansionAttribute : System.Attribute
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [Attribute](https://docs.microsoft.com/en-us/dotnet/api/system.attribute) → [SR2EExpansionAttribute](/docs/dev/api/sr2e/expansion/sr2eexpansionattribute)<br></br>
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [Attribute](https://docs.microsoft.com/en-us/dotnet/api/system.attribute) → [SR2EExpansionAttribute](/docs/dev/api/sr2e/expansion/sr2eexpansionattribute)<br />
 Attributes [AttributeUsageAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.attributeusageattribute)
 
 ## Properties
@@ -19,7 +19,7 @@ public object TypeId { get; }
 
 #### Property Value
 
-[Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)<br></br>
+[Object](https://docs.microsoft.com/en-us/dotnet/api/system.object)<br />
 
 ## Constructors
 

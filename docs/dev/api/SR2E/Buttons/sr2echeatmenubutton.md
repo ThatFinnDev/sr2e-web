@@ -44,6 +44,6 @@ public SR2ECheatMenuButton(string label, Action action)
 
 #### Parameters
 
-`label` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`label` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`action` [Action](https://docs.microsoft.com/en-us/dotnet/api/system.action)<br></br>
+`action` [Action](https://docs.microsoft.com/en-us/dotnet/api/system.action)<br />

@@ -6,7 +6,7 @@ Namespace: SR2E
 public static class SR2EUtils
 ```
 
-Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SR2EUtils](/docs/dev/api/sr2e/sr2eutils)<br></br>
+Inheritance [Object](https://docs.microsoft.com/en-us/dotnet/api/system.object) → [SR2EUtils](/docs/dev/api/sr2e/sr2eutils)<br />
 Attributes [ExtensionAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.runtime.compilerservices.extensionattribute)
 
 ## Fields
@@ -51,7 +51,7 @@ public static WeatherStateDefinition[] weatherStateDefinitions { get; }
 
 #### Property Value
 
-WeatherStateDefinition[]<br></br>
+WeatherStateDefinition[]<br />
 
 ### **systemContext**
 
@@ -61,7 +61,7 @@ public static SystemContext systemContext { get; }
 
 #### Property Value
 
-SystemContext<br></br>
+SystemContext<br />
 
 ### **gameContext**
 
@@ -71,7 +71,7 @@ public static GameContext gameContext { get; }
 
 #### Property Value
 
-GameContext<br></br>
+GameContext<br />
 
 ### **sceneContext**
 
@@ -81,7 +81,7 @@ public static SceneContext sceneContext { get; }
 
 #### Property Value
 
-SceneContext<br></br>
+SceneContext<br />
 
 ### **weatherStates**
 
@@ -91,7 +91,7 @@ public static Il2CppArrayBase<WeatherStateDefinition> weatherStates { get; }
 
 #### Property Value
 
-Il2CppArrayBase&lt;WeatherStateDefinition&gt;<br></br>
+Il2CppArrayBase&lt;WeatherStateDefinition&gt;<br />
 
 ### **inGame**
 
@@ -101,7 +101,7 @@ public static bool inGame { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **isAnyMenuOpen**
 
@@ -111,7 +111,7 @@ public static bool isAnyMenuOpen { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ## Methods
 
@@ -123,11 +123,11 @@ public static WeatherStateDefinition getWeatherStateByName(string name)
 
 #### Parameters
 
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-WeatherStateDefinition<br></br>
+WeatherStateDefinition<br />
 
 ### **LoadTextFile(String)**
 
@@ -137,11 +137,11 @@ public static string LoadTextFile(string name)
 
 #### Parameters
 
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **WeatherState(String)**
 
@@ -151,11 +151,11 @@ public static WeatherStateDefinition WeatherState(string name)
 
 #### Parameters
 
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-WeatherStateDefinition<br></br>
+WeatherStateDefinition<br />
 
 ### **AddTranslation(String, String, String)**
 
@@ -165,15 +165,15 @@ public static LocalizedString AddTranslation(string localized, string key, strin
 
 #### Parameters
 
-`localized` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`localized` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`table` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`table` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-LocalizedString<br></br>
+LocalizedString<br />
 
 ### **AddTranslationFromSR2E(String, String, String)**
 
@@ -183,15 +183,15 @@ public static LocalizedString AddTranslationFromSR2E(string sr2eTranslationID, s
 
 #### Parameters
 
-`sr2eTranslationID` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`sr2eTranslationID` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`table` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`table` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-LocalizedString<br></br>
+LocalizedString<br />
 
 ### **SetTranslation(String, String, String)**
 
@@ -201,11 +201,11 @@ public static void SetTranslation(string localized, string key, string table)
 
 #### Parameters
 
-`localized` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`localized` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`table` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`table` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **SetTranslationFromSR2E(String, String, String)**
 
@@ -215,11 +215,11 @@ public static void SetTranslationFromSR2E(string sr2eTranslationID, string key, 
 
 #### Parameters
 
-`sr2eTranslationID` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`sr2eTranslationID` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`key` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`table` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`table` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **SpawnActor(GameObject, Vector3)**
 
@@ -229,13 +229,13 @@ public static GameObject SpawnActor(GameObject obj, Vector3 pos)
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
-`pos` Vector3<br></br>
+`pos` Vector3<br />
 
 #### Returns
 
-GameObject<br></br>
+GameObject<br />
 
 ### **SpawnActor(GameObject, Vector3, Vector3)**
 
@@ -245,15 +245,15 @@ public static GameObject SpawnActor(GameObject obj, Vector3 pos, Vector3 rot)
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
-`pos` Vector3<br></br>
+`pos` Vector3<br />
 
-`rot` Vector3<br></br>
+`rot` Vector3<br />
 
 #### Returns
 
-GameObject<br></br>
+GameObject<br />
 
 ### **SpawnActor(GameObject, Vector3, Quaternion)**
 
@@ -263,15 +263,15 @@ public static GameObject SpawnActor(GameObject obj, Vector3 pos, Quaternion rot)
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
-`pos` Vector3<br></br>
+`pos` Vector3<br />
 
-`rot` Quaternion<br></br>
+`rot` Quaternion<br />
 
 #### Returns
 
-GameObject<br></br>
+GameObject<br />
 
 ### **SpawnDynamic(GameObject, Vector3, Quaternion)**
 
@@ -281,15 +281,15 @@ public static GameObject SpawnDynamic(GameObject obj, Vector3 pos, Quaternion ro
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
-`pos` Vector3<br></br>
+`pos` Vector3<br />
 
-`rot` Quaternion<br></br>
+`rot` Quaternion<br />
 
 #### Returns
 
-GameObject<br></br>
+GameObject<br />
 
 ### **SpawnFX(GameObject, Vector3)**
 
@@ -299,13 +299,13 @@ public static GameObject SpawnFX(GameObject fx, Vector3 pos)
 
 #### Parameters
 
-`fx` GameObject<br></br>
+`fx` GameObject<br />
 
-`pos` Vector3<br></br>
+`pos` Vector3<br />
 
 #### Returns
 
-GameObject<br></br>
+GameObject<br />
 
 ### **SpawnFX(GameObject, Vector3, Quaternion)**
 
@@ -315,15 +315,15 @@ public static GameObject SpawnFX(GameObject fx, Vector3 pos, Quaternion rot)
 
 #### Parameters
 
-`fx` GameObject<br></br>
+`fx` GameObject<br />
 
-`pos` Vector3<br></br>
+`pos` Vector3<br />
 
-`rot` Quaternion<br></br>
+`rot` Quaternion<br />
 
 #### Returns
 
-GameObject<br></br>
+GameObject<br />
 
 ### **Get&lt;T&gt;(String)**
 
@@ -333,15 +333,15 @@ public static T Get<T>(string name)
 
 #### Type Parameters
 
-`T`<br></br>
+`T`<br />
 
 #### Parameters
 
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-T<br></br>
+T<br />
 
 ### **ConvertToSprite(Texture2D)**
 
@@ -351,11 +351,11 @@ public static Sprite ConvertToSprite(Texture2D texture)
 
 #### Parameters
 
-`texture` Texture2D<br></br>
+`texture` Texture2D<br />
 
 #### Returns
 
-Sprite<br></br>
+Sprite<br />
 
 ### **CopyObject(GameObject)**
 
@@ -365,11 +365,11 @@ public static GameObject CopyObject(GameObject obj)
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
 #### Returns
 
-GameObject<br></br>
+GameObject<br />
 
 ### **Get(String)**
 
@@ -379,11 +379,11 @@ public static GameObject Get(string name)
 
 #### Parameters
 
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-GameObject<br></br>
+GameObject<br />
 
 ### **MakePrefab(GameObject)**
 
@@ -393,7 +393,7 @@ public static void MakePrefab(GameObject obj)
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
 ### **disableWarning(MelonPreferences_Entry)**
 
@@ -403,7 +403,7 @@ public static void disableWarning(MelonPreferences_Entry entry)
 
 #### Parameters
 
-`entry` MelonPreferences_Entry<br></br>
+`entry` MelonPreferences_Entry<br />
 
 ### **disableWarning(MelonPreferences_Entry, Action)**
 
@@ -413,9 +413,9 @@ public static void disableWarning(MelonPreferences_Entry entry, Action action)
 
 #### Parameters
 
-`entry` MelonPreferences_Entry<br></br>
+`entry` MelonPreferences_Entry<br />
 
-`action` [Action](https://docs.microsoft.com/en-us/dotnet/api/system.action)<br></br>
+`action` [Action](https://docs.microsoft.com/en-us/dotnet/api/system.action)<br />
 
 ### **RemoveComponent&lt;T&gt;(GameObject)**
 
@@ -425,15 +425,15 @@ public static bool RemoveComponent<T>(GameObject obj)
 
 #### Type Parameters
 
-`T`<br></br>
+`T`<br />
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **RemoveComponent&lt;T&gt;(Transform)**
 
@@ -443,15 +443,15 @@ public static bool RemoveComponent<T>(Transform obj)
 
 #### Type Parameters
 
-`T`<br></br>
+`T`<br />
 
 #### Parameters
 
-`obj` Transform<br></br>
+`obj` Transform<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **il2cppTypeof(Type)**
 
@@ -461,11 +461,11 @@ public static Type il2cppTypeof(Type type)
 
 #### Parameters
 
-`type` [Type](https://docs.microsoft.com/en-us/dotnet/api/system.type)<br></br>
+`type` [Type](https://docs.microsoft.com/en-us/dotnet/api/system.type)<br />
 
 #### Returns
 
-Type<br></br>
+Type<br />
 
 ### **getObjRec&lt;T&gt;(GameObject, String)**
 
@@ -475,17 +475,17 @@ public static T getObjRec<T>(GameObject obj, string name)
 
 #### Type Parameters
 
-`T`<br></br>
+`T`<br />
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-T<br></br>
+T<br />
 
 ### **GetChildren(Transform)**
 
@@ -495,11 +495,11 @@ public static List<Transform> GetChildren(Transform obj)
 
 #### Parameters
 
-`obj` Transform<br></br>
+`obj` Transform<br />
 
 #### Returns
 
-[List&lt;Transform&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br></br>
+[List&lt;Transform&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br />
 
 ### **DestroyAllChildren(Transform)**
 
@@ -509,7 +509,7 @@ public static void DestroyAllChildren(Transform obj)
 
 #### Parameters
 
-`obj` Transform<br></br>
+`obj` Transform<br />
 
 ### **getAllChildren(GameObject)**
 
@@ -519,11 +519,11 @@ public static List<GameObject> getAllChildren(GameObject obj)
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
 #### Returns
 
-[List&lt;GameObject&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br></br>
+[List&lt;GameObject&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br />
 
 ### **getAllChildrenOfType&lt;T&gt;(GameObject)**
 
@@ -533,15 +533,15 @@ public static T[] getAllChildrenOfType<T>(GameObject obj)
 
 #### Type Parameters
 
-`T`<br></br>
+`T`<br />
 
 #### Parameters
 
-`obj` GameObject<br></br>
+`obj` GameObject<br />
 
 #### Returns
 
-T[]<br></br>
+T[]<br />
 
 ### **getAllChildrenOfType&lt;T&gt;(Transform)**
 
@@ -551,15 +551,15 @@ public static T[] getAllChildrenOfType<T>(Transform obj)
 
 #### Type Parameters
 
-`T`<br></br>
+`T`<br />
 
 #### Parameters
 
-`obj` Transform<br></br>
+`obj` Transform<br />
 
 #### Returns
 
-T[]<br></br>
+T[]<br />
 
 ### **getObjRec&lt;T&gt;(Transform, String)**
 
@@ -569,17 +569,17 @@ public static T getObjRec<T>(Transform transform, string name)
 
 #### Type Parameters
 
-`T`<br></br>
+`T`<br />
 
 #### Parameters
 
-`transform` Transform<br></br>
+`transform` Transform<br />
 
-`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`name` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 #### Returns
 
-T<br></br>
+T<br />
 
 ### **getAllChildren(Transform)**
 
@@ -589,11 +589,11 @@ public static List<GameObject> getAllChildren(Transform container)
 
 #### Parameters
 
-`container` Transform<br></br>
+`container` Transform<br />
 
 #### Returns
 
-[List&lt;GameObject&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br></br>
+[List&lt;GameObject&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br />
 
 ### **getVaccableListByPartialName(String, Boolean)**
 
@@ -603,13 +603,13 @@ public static List<string> getVaccableListByPartialName(string input, bool useCo
 
 #### Parameters
 
-`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`useContain` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`useContain` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 #### Returns
 
-[List&lt;String&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br></br>
+[List&lt;String&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br />
 
 ### **getIdentListByPartialName(String, Boolean, Boolean, Boolean, Boolean)**
 
@@ -619,19 +619,19 @@ public static List<string> getIdentListByPartialName(string input, bool includeN
 
 #### Parameters
 
-`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`includeNormal` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`includeNormal` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
-`includeGadget` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`includeGadget` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
-`useContain` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`useContain` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
-`includeStars` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`includeStars` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 #### Returns
 
-[List&lt;String&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br></br>
+[List&lt;String&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br />
 
 ### **getKeyListByPartialName(String, Boolean)**
 
@@ -641,13 +641,13 @@ public static List<string> getKeyListByPartialName(string input, bool useContain
 
 #### Parameters
 
-`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`input` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`useContain` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`useContain` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 #### Returns
 
-[List&lt;String&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br></br>
+[List&lt;String&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br />
 
 ### **IsBetween(String[], UInt32, Int32)**
 
@@ -657,15 +657,15 @@ public static bool IsBetween(String[] list, uint min, int max)
 
 #### Parameters
 
-`list` [String[]](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`list` [String[]](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
-`min` [UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32)<br></br>
+`min` [UInt32](https://docs.microsoft.com/en-us/dotnet/api/system.uint32)<br />
 
-`max` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+`max` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **isGadget(IdentifiableType)**
 
@@ -675,11 +675,11 @@ public static bool isGadget(IdentifiableType type)
 
 #### Parameters
 
-`type` IdentifiableType<br></br>
+`type` IdentifiableType<br />
 
 #### Returns
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **getName(IdentifiableType)**
 
@@ -689,11 +689,11 @@ public static string getName(IdentifiableType type)
 
 #### Parameters
 
-`type` IdentifiableType<br></br>
+`type` IdentifiableType<br />
 
 #### Returns
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **changeValue(float4, Int32, Single)**
 
@@ -703,15 +703,15 @@ public static float4 changeValue(float4 float4, int index, float value)
 
 #### Parameters
 
-`float4` float4<br></br>
+`float4` float4<br />
 
-`index` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+`index` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
-`value` [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single)<br></br>
+`value` [Single](https://docs.microsoft.com/en-us/dotnet/api/system.single)<br />
 
 #### Returns
 
-float4<br></br>
+float4<br />
 
 ### **TryHideMenus()**
 
@@ -733,7 +733,7 @@ public static void TryPauseGame(bool usePauseMenu)
 
 #### Parameters
 
-`usePauseMenu` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`usePauseMenu` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **TryUnPauseGame(Boolean)**
 
@@ -743,7 +743,7 @@ public static void TryUnPauseGame(bool usePauseMenu)
 
 #### Parameters
 
-`usePauseMenu` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+`usePauseMenu` [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **TryUnHideMenus()**
 

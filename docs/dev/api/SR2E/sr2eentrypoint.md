@@ -35,7 +35,7 @@ public static bool isLatestVersion { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **InfoAttribute**
 
@@ -51,7 +51,7 @@ public MelonModInfoAttribute InfoAttribute { get; }
 
 #### Property Value
 
-MelonModInfoAttribute<br></br>
+MelonModInfoAttribute<br />
 
 ### **GameAttributes**
 
@@ -67,7 +67,7 @@ public MelonModGameAttribute[] GameAttributes { get; }
 
 #### Property Value
 
-MelonModGameAttribute[]<br></br>
+MelonModGameAttribute[]<br />
 
 ### **MelonTypeName**
 
@@ -77,7 +77,7 @@ public string MelonTypeName { get; }
 
 #### Property Value
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **MelonAssembly**
 
@@ -87,7 +87,7 @@ public MelonAssembly MelonAssembly { get; internal set; }
 
 #### Property Value
 
-MelonAssembly<br></br>
+MelonAssembly<br />
 
 ### **Priority**
 
@@ -97,7 +97,7 @@ public int Priority { get; internal set; }
 
 #### Property Value
 
-[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+[Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
 ### **ConsoleColor**
 
@@ -107,7 +107,7 @@ public Color ConsoleColor { get; internal set; }
 
 #### Property Value
 
-Color<br></br>
+Color<br />
 
 ### **AuthorConsoleColor**
 
@@ -117,7 +117,7 @@ public Color AuthorConsoleColor { get; internal set; }
 
 #### Property Value
 
-Color<br></br>
+Color<br />
 
 ### **Info**
 
@@ -127,7 +127,7 @@ public MelonInfoAttribute Info { get; internal set; }
 
 #### Property Value
 
-MelonInfoAttribute<br></br>
+MelonInfoAttribute<br />
 
 ### **AdditionalCredits**
 
@@ -137,7 +137,7 @@ public MelonAdditionalCreditsAttribute AdditionalCredits { get; internal set; }
 
 #### Property Value
 
-MelonAdditionalCreditsAttribute<br></br>
+MelonAdditionalCreditsAttribute<br />
 
 ### **SupportedProcesses**
 
@@ -147,7 +147,7 @@ public MelonProcessAttribute[] SupportedProcesses { get; internal set; }
 
 #### Property Value
 
-MelonProcessAttribute[]<br></br>
+MelonProcessAttribute[]<br />
 
 ### **Games**
 
@@ -157,7 +157,7 @@ public MelonGameAttribute[] Games { get; internal set; }
 
 #### Property Value
 
-MelonGameAttribute[]<br></br>
+MelonGameAttribute[]<br />
 
 ### **SupportedGameVersions**
 
@@ -167,7 +167,7 @@ public MelonGameVersionAttribute[] SupportedGameVersions { get; internal set; }
 
 #### Property Value
 
-MelonGameVersionAttribute[]<br></br>
+MelonGameVersionAttribute[]<br />
 
 ### **OptionalDependencies**
 
@@ -177,7 +177,7 @@ public MelonOptionalDependenciesAttribute OptionalDependencies { get; internal s
 
 #### Property Value
 
-MelonOptionalDependenciesAttribute<br></br>
+MelonOptionalDependenciesAttribute<br />
 
 ### **SupportedPlatforms**
 
@@ -187,7 +187,7 @@ public MelonPlatformAttribute SupportedPlatforms { get; internal set; }
 
 #### Property Value
 
-MelonPlatformAttribute<br></br>
+MelonPlatformAttribute<br />
 
 ### **SupportedDomain**
 
@@ -197,7 +197,7 @@ public MelonPlatformDomainAttribute SupportedDomain { get; internal set; }
 
 #### Property Value
 
-MelonPlatformDomainAttribute<br></br>
+MelonPlatformDomainAttribute<br />
 
 ### **SupportedMLVersion**
 
@@ -207,7 +207,7 @@ public VerifyLoaderVersionAttribute SupportedMLVersion { get; internal set; }
 
 #### Property Value
 
-VerifyLoaderVersionAttribute<br></br>
+VerifyLoaderVersionAttribute<br />
 
 ### **SupportedMLBuild**
 
@@ -217,7 +217,7 @@ public VerifyLoaderBuildAttribute SupportedMLBuild { get; internal set; }
 
 #### Property Value
 
-VerifyLoaderBuildAttribute<br></br>
+VerifyLoaderBuildAttribute<br />
 
 ### **HarmonyInstance**
 
@@ -227,7 +227,7 @@ public Harmony HarmonyInstance { get; internal set; }
 
 #### Property Value
 
-Harmony<br></br>
+Harmony<br />
 
 ### **LoggerInstance**
 
@@ -237,7 +237,7 @@ public Instance LoggerInstance { get; internal set; }
 
 #### Property Value
 
-Instance<br></br>
+Instance<br />
 
 ### **ID**
 
@@ -247,7 +247,7 @@ public string ID { get; internal set; }
 
 #### Property Value
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **Registered**
 
@@ -257,7 +257,7 @@ public bool Registered { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **harmonyInstance**
 
@@ -273,7 +273,7 @@ public HarmonyInstance harmonyInstance { get; }
 
 #### Property Value
 
-HarmonyInstance<br></br>
+HarmonyInstance<br />
 
 ### **Harmony**
 
@@ -289,7 +289,7 @@ public HarmonyInstance Harmony { get; }
 
 #### Property Value
 
-HarmonyInstance<br></br>
+HarmonyInstance<br />
 
 ### **Assembly**
 
@@ -305,7 +305,7 @@ public Assembly Assembly { get; }
 
 #### Property Value
 
-[Assembly](https://docs.microsoft.com/en-us/dotnet/api/system.reflection.assembly)<br></br>
+[Assembly](https://docs.microsoft.com/en-us/dotnet/api/system.reflection.assembly)<br />
 
 ### **HarmonyDontPatchAll**
 
@@ -321,7 +321,7 @@ public bool HarmonyDontPatchAll { get; }
 
 #### Property Value
 
-[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br></br>
+[Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean)<br />
 
 ### **Hash**
 
@@ -337,7 +337,7 @@ public string Hash { get; }
 
 #### Property Value
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **Location**
 
@@ -353,7 +353,7 @@ public string Location { get; }
 
 #### Property Value
 
-[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+[String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ## Constructors
 
@@ -397,9 +397,9 @@ public void OnSceneWasLoaded(int buildIndex, string sceneName)
 
 #### Parameters
 
-`buildIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+`buildIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
-`sceneName` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`sceneName` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **OnSceneWasInitialized(Int32, String)**
 
@@ -409,9 +409,9 @@ public void OnSceneWasInitialized(int buildindex, string sceneName)
 
 #### Parameters
 
-`buildindex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+`buildindex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
-`sceneName` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`sceneName` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **OnSceneWasUnloaded(Int32, String)**
 
@@ -421,9 +421,9 @@ public void OnSceneWasUnloaded(int buildIndex, string sceneName)
 
 #### Parameters
 
-`buildIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br></br>
+`buildIndex` [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32)<br />
 
-`sceneName` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br></br>
+`sceneName` [String](https://docs.microsoft.com/en-us/dotnet/api/system.string)<br />
 
 ### **OnUpdate()**
 

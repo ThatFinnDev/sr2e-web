@@ -30,7 +30,7 @@ MultiKey(List<Key> requiredKeys)
 
 #### Parameters
 
-`requiredKeys` [List&lt;Key&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br></br>
+`requiredKeys` [List&lt;Key&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1)<br />
 The collection of keys to check for
 
 ### **MultiKey(Key[])**
@@ -43,5 +43,5 @@ MultiKey(Key[] requiredKeys)
 
 #### Parameters
 
-`requiredKeys` [Key[]](/docs/dev/api/sr2e/key)<br></br>
+`requiredKeys` [Key[]](/docs/dev/api/sr2e/key)<br />
 The collection of keys to check for
