@@ -2,6 +2,10 @@
 sidebar_position: 1
 ---
 
+import DotNet6 from './img/.net6.0.png';
+import MLIHomeWin from './img/mli_home_win.png';
+import MLISR2SuccessWin from './img/mli_sr2_success_win.png';
+
 # Windows Installation Guide
 
 This guide will show you how to install SR2E on a windows computer!
@@ -17,20 +21,28 @@ The ASP.NET Core Runtime doesn't count.
 
 1. Head to the [Microsoft .NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) download page
 2. Download the **x64 Windows"** version of **.NET Runtime 6.0**
-![.net6.0.png loading](./img/.net6.0.png)
+<img src={DotNet6} alt="<image is loading>" style={{height: 300}} />
 3. Run the downloaded **executable**, go through the installer and press exit
 
 ### Installing MelonLoader
 
 As mentioned before in the intro, SR2E **requires** MelonLoader in order to work.
 
-1. Download the [MelonLoader Installer](https://github.com/LavaGang/MelonLoader/releases/download/v0.6.6/MelonLoader.Installer.exe)
+1. Download the [MelonLoader Installer](https://github.com/LavaGang/MelonLoader/releases/latest/download/MelonLoader.Installer.exe)
 2. Run the downloaded **executable**.
 3. Select **Slime Rancher 2**. If you cant find it, you need to add the game manually.
-![mli_home_win.png loading](./img/mli_home_win.png)
+:::
+:::warning Incompatibility
+
+**Slime Rancher 2** 0.6.0 and 0.6.1 are not compatible with MelonLoader 0.6.6, 0.6.5 and 0.6.3. Since MelonLoader 0.6.4 has some
+issues regarding loading assetbundles, we recommend using version MelonLoader 0.6.2 instead.
+
+:::
+<img src={MLIHomeWin} alt="<image is loading>" style={{height: 450}} />
+
 4. Select the **latest version** in the version dropdown and then **press Install**.
 5. If everything went smoothly, it should get this message:
-![mli_sr2_success_win.png loading](./img/mli_sr2_success_win.png)
+<img src={MLISR2SuccessWin} alt="<image is loading>" style={{height: 300}} />
 6. Simply press OK, close the installer and proceed to the next step
 
 ## Installing SR2E
