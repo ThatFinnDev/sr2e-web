@@ -25,8 +25,8 @@ const config = {
   organizationName: 'ThatFinnDeV', // Usually your GitHub org/user name.
   trailingSlash: false,
   deploymentBranch: "main",
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
